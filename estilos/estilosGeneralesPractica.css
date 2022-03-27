@@ -1,0 +1,86 @@
+/*Estilos globales*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+background: rgb(2,0,36);
+background: linear-gradient(95deg, rgba(2,0,36,1) 0%, rgba(28,76,205,0.9864320728291317) 39%, rgba(0,212,255,1) 100%);
+}
+
+a{
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+/*estilos del banner*/
+#banner{
+	height: 95px;
+}
+
+.titulo__principal{
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	text-shadow: 3px 3px 5px black,3px 1px 1px #fff ;
+}
+/*estilos del nav*/
+.menu__contenedor{
+	height: 100px;
+}
+
+
+.menu__contenedor a{
+	border-radius: 20px;
+	box-shadow: 3px 2px 3px black, -2px 2px 6px black;
+}
+ul{
+	display: block;
+	text-align: center;
+}
+li{
+	display: inline-block;
+	list-style-type: none;
+	height: 50px;
+	width:18%;
+	padding: 5px;
+	}
+
+#menu li a{
+	color: black;
+	display: block;
+	box-sizing: border-box;
+	background-color: greenyellow;
+	height: 100%;
+	padding: 15px;
+	font-family: sans-serif;
+	text-decoration: none;
+	
+}
+
+
+/*footer*/
+
+#footer{
+	background-color:#0f0ccf;
+	height: 50px;
+}
+
+#footer span{
+	display: block;
+	height: 100%;
+}
+
+#footer span p{
+	color: greenyellow;
+	font-size: 1.3em;
+	text-align: center;
+	line-height: 2.2em;
+}
+
+#footer a{
+	color: white;
+}
