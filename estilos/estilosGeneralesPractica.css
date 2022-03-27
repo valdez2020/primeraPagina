@@ -3,6 +3,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	color: white;
 }
 
 body{
@@ -61,12 +62,31 @@ li{
 	
 }
 
+/*main*/
 
+#main{
+	width: 100%;
+	min-height: 700px;
+	border: 3px solid black;
+}
+
+.main__container{
+	float: left;
+	width: 75%;
+}
+
+#lateral{
+	float: right;
+	width: 24.5%;
+	height: 500px;
+	border: 2px solid greenyellow;
+}
 /*footer*/
 
 #footer{
 	background-color:#0f0ccf;
 	height: 50px;
+	clear:both; 
 }
 
 #footer span{
